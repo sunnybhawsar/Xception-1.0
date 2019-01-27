@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events | IdeaThon</title>
+<link rel="icon" href="xcept.png" type="image/png" sizes="19x19">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<style type=text/css>
+.logoimg:hover
+{
+color:#0BBF9A;
+}
+.logoimg
+{
+padding-top:0px;
+}
+.imagee
+{
+height:150px; width:190px; margin:20px 4% 20px 4%;  
+
+border-radius: -moz-box-shadow:     10px 10px 30px #ffffff;
+   -webkit-box-shadow:  10px 10px 30px #ffffff;
+   box-shadow:          0px 0px 30px #ffffff;
+   border-radius: 20px;
+}
+.imagee:hover
+{
+border:solid 2px white;
+}
+.header_div_eve {
+	background: url(img/header-bg.jpg) no-repeat bottom right;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 700px;
+}
+@media only screen and (max-width: 786px)
+{
+.header_div_eve {
+	background: url(img/header-bg.jpg) no-repeat bottom right;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 1200px;
+}
+}
+</style>
+
+
+
+<script>
+function show(x)
+{
+if(x==2)
+{
+$("#one").css("visibility", "hidden");
+$("#two").css("visibility", "visible");
+$("#three").css("visibility", "hidden");
+$("#four").css("visibility", "hidden");
+$("#five").css("visibility", "hidden");
+
+}
+if(x==3)
+{
+$("#one").css("visibility", "hidden");
+$("#two").css("visibility", "hidden");
+$("#three").css("visibility", "visible");
+$("#four").css("visibility", "hidden");
+$("#five").css("visibility", "hidden");
+
+
+}
+if(x==4)
+{
+$("#one").css("visibility", "hidden");
+$("#two").css("visibility", "hidden");
+$("#three").css("visibility", "hidden");
+$("#four").css("visibility", "visible");
+$("#five").css("visibility", "hidden");
+
+
+}
+if(x==5)
+{
+$("#one").css("visibility", "hidden");
+$("#two").css("visibility", "hidden");
+$("#three").css("visibility", "hidden");
+$("#four").css("visibility", "hidden");
+$("#five").css("visibility", "visible");
+
+
+}
+if(x==6)
+{
+$("#one").css("visibility", "hidden");
+$("#two").css("visibility", "hidden");
+$("#three").css("visibility", "hidden");
+$("#four").css("visibility", "hidden");
+$("#five").css("visibility", "hidden");
+
+
+}
+
+
+}
+</script>
+
+
+
+</head>
+
+<body>
+<!-- Navigatio -->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top" >
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" style="padding-top:0px;" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+	  <div class="logoimg">
+      <a class="navbar-brand" href="index.html"><img src="img/C__fakepath_logo.png" style="clear:both;height:35px; width:150px; margin-top:0px; padding-top:0px; float:left; margin-right:6px;" /></a>
+	  </div>
+	   </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="transition:0.4s; ">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="menuss"><a href="#" class="page-scroll">Home</a></li>
+        <li class="menuss"><a href="aboutus.html" class="page-scroll">About Us</a></li>
+        <li class="menuss"><a href="event.html" class="page-scroll">Events</a></li>
+        <li class="menuss"><a href="team.html" class="page-scroll">Team</a></li>
+		<li class="menuss"><a href="sponsors.html" class="page-scroll">Sponsors</a></li>
+        <li class="menuss"><a href="register.html" class="page-scroll">Register</a></li>
+        <li class="menuss"><a href="contact.html" class="page-scroll">Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- Header -->
+<div class="header_div_eve" >
+<header class="text-center" name="home">
+  <div class="intro-text" style="padding-top:100px;">
+  
+  
+  <div>
+ 
+  
+  <h2 style="color:#FFFFFF;">IdeaThon</h2>
+      <hr>
+	  <img src="img/events/smart3.jpg" class="imagee">
+	  <br/>
+	  <button type="submit" id="subb1" class="btn btn-default" onclick="show(2)">Description</button>
+	  <button type="submit" id="subb1" class="btn btn-default" onclick="show(3)">Rules</button>
+	  <button type="submit" id="subb1" class="btn btn-default" onclick="show(4)">Prize</button>
+	  <button type="submit" id="subb1" class="btn btn-default" onclick="show(5)">Contact</button>
+	  <a href="eventpdf/Xception_IdeaThon.pdf" target="_blank">
+ <button type="submit" id="subb1" class="btn btn-default" >PDF Download</button>
+</a>
+  </br>
+  <div id="two" style="font-size:22px; margin:50px; position:absolute; text-align:justify;">
+ Here comes an event one of its own kind - IDEATHON. It sounds similar to
+hackathon but you maybe thinking how is it different from it??
+In a hackathon you need an idea and you need to show the implementation of your
+idea.
+But here you only need an idea no need to implement it, just tell us through a
+presentation, video, slide show, etc... how actually will your idea effect and help the
+concept of smart city.
+This event is in association with Ujjain Smart City Limited.
+  </div>
+  <div id="three" style="font-size:22px; margin:50px; position:absolute; visibility:hidden; text-align:justify;">
+<ul>
+<li>&#x25BA;Team with a maximum of 4 persons.
+
+</li>
+<li>&#x25BA;You can participate at a nominal fee of 50 INR per team.
+
+</li>
+</ul>
+  </div>
+ 
+<div id="four" style="font-size:22px; margin:50px; position:absolute; visibility:hidden; text-align:justify;">
+Winning team will be awarded a prize of 1000 INR ​ and certificate of participation will be given to
+all.
+
+  </div>
+<div id="five" style="font-size:22px; margin:50px; position:absolute; visibility:hidden; text-align:justify;">
+  
+
+<ul>
+<li>Moiz Rahib-9479720110.
+
+</li>
+<li>Raghav Soni-8959788988.
+
+</li>
+</ul>
+
+  </div>
+
+
+  </div>
+ 
+  
+  
+</div>
+</header>
+</div>
+
+
+<!-- Social icons -->
+<div id="social-section" style="height:1px;background-color:#000000;padding-top:5px;">
+  <div class="container" style="  " >
+    <div class="social" >
+      <ul>
+        <li><a href="https://www.facebook.com/xception.co.in/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/xception_uecu" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/xception_1.0/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin" ></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="footer" style="height:40px; background-color:#000000; padding-top:5px;">
+  <div class="container">
+    <div class="fnav">
+      <p> &copy; Copyright 2018-19 - Xception.</p>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+
+<!-- Javascripts  --> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
